@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nauka Driftu w Assetto Corsa | Drift Academy</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1e1e1e;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #f39c12;
+            font-size: 2.8em;
+        }
+        header p {
+            margin-top: 10px;
+            color: #ccc;
+            font-size: 1.2em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #2c2c2c;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #f39c12;
+            color: #121212;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        section h2 {
+            color: #f39c12;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+        .card {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #f1c40f;
+        }
+        footer {
+            background-color: #1e1e1e;
+            text-align: center;
+            padding: 20px;
+            color: #aaa;
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+            header h1 {
+                font-size: 2.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Drift Academy</h1>
+        <p>Nauka driftu w Assetto Corsa – od podstaw do profesjonalisty</p>
+    </header>
+
+    <nav>
+        <a href="#o-nas">O nas</a>
+        <a href="#kursy">Kursy</a>
+        <a href="#porady">Porady</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+
+    <section id="o-nas">
+        <h2>O nas</h2>
+        <div class="card">
+            <p>Jesteśmy pasjonatami driftu w <strong>Assetto Corsa</strong>. Tworzymy kursy, które pozwolą Ci opanować techniki driftu – od pierwszego powerslide’a do perfekcyjnych linii na torze.</p>
+        </div>
+    </section>
+
+    <section id="kursy">
+        <h2>Kursy Driftu w Assetto Corsa</h2>
+        <div class="card">
+            <h3>🛞 Podstawy Driftu</h3>
+            <p>Dowiedz się jak ustawić samochód, dobrać opony i nauczyć się podstawowych technik driftu.</p>
+        </div>
+        <div class="card">
+            <h3>🏎️ Zaawansowane Techniki</h3>
+            <p>Przesiądź się na potężniejsze auta, opanuj feint drift, clutch kick i kontrolę nad pojazdem w każdych warunkach.</p>
+        </div>
+        <div class="card">
+            <h3>🖥️ Setup Assetto Corsa</h3>
+            <p>Krok po kroku konfiguracja gry, modów i realistycznych ustawień force feedbacku dla kierownicy.</p>
+        </div>
+    </section>
+
+    <section id="porady">
+        <h2>Porady dla Początkujących</h2>
+        <div class="card">
+            <p>✅ Używaj torów typu “Touge” do nauki kontroli nad autem.</p>
+            <p>✅ Zacznij od samochodów z mniejszą mocą (np. Mazda MX-5).</p>
+            <p>✅ Zainstaluj popularne mody, jak <strong>Custom Shaders Patch</strong> i <strong>Sol</strong> dla lepszego realizmu.</p>
+        </div>
+    </section>
+
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <div class="card">
+            <p>📧 Email: <a href="mailto:kontakt@driftacademy.pl" style="color:#f39c12;">kontakt@driftacademy.pl</a></p>
+            <p>📱 Discord: <a href="https://discord.gg/example" style="color:#f39c12;">Dołącz do naszego serwera</a></p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Drift Academy. Wszystkie prawa zastrzeżone.
+    </footer>
+</body>
+</html>
